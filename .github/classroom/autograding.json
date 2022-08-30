@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Compile test_math",
+      "setup": "",
+      "run": "cd NeoMath && make",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Run test_math",
+      "setup": "",
+      "run": "cd NeoMath && ./test_math",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Compile test_array",
+      "setup": "",
+      "run": "cd ArrayUtils && make",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Run test_array",
+      "setup": "",
+      "run": "cd ArrayUtils && ./test_array",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
